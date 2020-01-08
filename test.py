@@ -1,8 +1,10 @@
 import sys
 from gmail import Gmail
 
-username = 'theresa.thoraldson@gmail.com'
+print('Please enter username')
+username = raw_input()
 
+print()
 # password
 print('Please enter the password for ' + username)
 password = raw_input()
